@@ -1,16 +1,16 @@
-primary_name: "Your Name"
+primary_name: "Zheng Shi"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Zheng Shi"
 
 positions:
 - name: Position without logo
 - logo: /assets/images/badges/PKU_red.png
-  name: B.S., Peking University (2021)
+  name: B.S., Shandong University (2025)
 
-email: "your@email.com"
+email: "bsgbsg7@outlook.com"
 # cv_link: link-to-your-cv-file
 gscholar: your_google_scholar_id
-github: your_github_id
+github: bsgbsg7
 twitter: your_twitter_id
 # wechat_qrcode: /assets/images/etc/wechat.jpg
 # wechat_prompt: >-
@@ -28,10 +28,10 @@ portrait_caption: >-
   Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
 
 education:
-- name: Peking University
+- name: Shandong University
   logo: /assets/images/badges/PKU_red.png
   position: B.S. in Computer Science
-  date: Sep. 2017 - Jul. 2021
+  date: Sep. 2021 - Jul. 2025
 
 # experience:
 # - name: Peking University

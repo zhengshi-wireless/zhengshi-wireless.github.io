@@ -19,13 +19,12 @@ github: bsgbsg7
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-
+  I am going to receive the B.E. degree in communication engineering from Shandong University, Shandong, China, advised by Prof. Yanni Yang.
+  My current research interests include wireless sensing, mobile computing and intelligent reﬂecting surface.
+   
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Photo by bsgbsg7.
 
 education:
 - name: Shandong University

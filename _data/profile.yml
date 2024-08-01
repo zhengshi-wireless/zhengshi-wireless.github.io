@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Zheng Shi"
 
 positions:
-# - name: Position without logo
-- logo: /assets/images/badges/PKU_red.png
+- name: Position without logo
+- logo: /assets/images/badges/shanda.png
   name: B.S., Shandong University (2025)
 
 email: "bsgbsg7@outlook.com"
@@ -29,7 +29,7 @@ portrait_caption: >-
 
 education:
 - name: Shandong University
-  logo: /assets/images/badges/PKU_red.png
+  logo: /assets/images/badges/shanda.png
   position: B.S. in Communication Engineering
   date: Sep. 2021 - Jul. 2025
 

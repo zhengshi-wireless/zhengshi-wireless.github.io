@@ -10,7 +10,7 @@ pub_date:       "2024"
 
 abstract: >-
   We present RF-Parrot2, a novel attack that enables a wireless attacker to eavesdrop on wired audio signals by exploiting a simple yet effective retroreflector.
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/TMC1.png
 authors:
   - Genglin Wang
   - Zheng Shi
@@ -22,5 +22,5 @@ authors:
   - Jiannong Cao.
 links:
   Paper: https://ieeexplore.ieee.org/document/10766401
-  Demo: https://unsplash.com/photos/sliced-in-half-pineapple--_PLJZmHZzk
+  Demo: https://genglinwang.github.io/RFRA4audio/
 ---

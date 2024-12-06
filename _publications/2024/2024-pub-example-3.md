@@ -5,7 +5,7 @@ selected:       true
 pub:            "IEEE Transactions on Mobile Computing (TMC)"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
+# pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Spotlight</span>'
 pub_date:       "2024"
 
 abstract: >-
@@ -13,7 +13,7 @@ abstract: >-
 cover:          /assets/images/covers/TMC1.png
 authors:
   - Genglin Wang
-  - Zheng Shi
+  - <b>Zheng Shi</b>
   - Yanni Yang
   - Zhenlin An
   - Guoming Zhang

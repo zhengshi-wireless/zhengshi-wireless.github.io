@@ -22,6 +22,6 @@ authors:
   - Jiannong Cao
 links:
   Paper: https://ieeexplore.ieee.org/document/11044530
-  Slides: /_sources/slides/rfnoid_infocom25_slides.pdf
+  Slides: /sources/slides/rfnoid_infocom25_slides.pdf
   # Demo: https://genglinwang.github.io/RFRA4audio/
 ---

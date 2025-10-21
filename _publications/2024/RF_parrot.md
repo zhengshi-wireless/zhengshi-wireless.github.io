@@ -23,5 +23,5 @@ authors:
 links:
   Paper: https://ieeexplore.ieee.org/document/10766401
   Demo: https://genglinwang.github.io/RFRA4audio/
-  Video: /sources/slides/rfparrot_infocom24_video.mp4
+  Video: /sources/video/rfparrot_infocom24_video.mp4
 ---

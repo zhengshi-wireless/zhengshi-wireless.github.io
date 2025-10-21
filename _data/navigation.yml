@@ -5,5 +5,5 @@ pages:
   url: /publications
 - name: Projects
   url: /projects
-- name: CV
+- name: MyCV
   url: /sources/slides/CV.pdf

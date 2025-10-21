@@ -8,7 +8,7 @@ positions:
   name: B.E., Shandong University (2025)
 
 email: "bsgbsg7@outlook.com"
-# cv_link: /sources/slides/CV.pdf  # <-- updated to the actual path of your CV PDF
+# cv_link: link-to-your-cv-file
 # gscholar: your_google_scholar_id
 # github: bsgbsg7
 # twitter: your_twitter_id
@@ -19,7 +19,7 @@ email: "bsgbsg7@outlook.com"
 # orcid: 0000-0000-0000-0000
 
 short_bio: >-
-  I received the B.E. degree in communication engineering from Shandong University, Qindao, China, advised by <a href="https://yanniyang-polyu.github.io/index_english.html">Dr. Yanni Yang</a>.
+  I received the B.E. degree in communication engineering from Shandong University, Qindao, China, advised by <a href="https://yanniyang-polyu.github.io/index_english.html">Prof. Yanni Yang</a>.
   Meanwhile, I was also a member of ChongXin College. 
   <br>
   My current research interests include wireless sensing, mobile computing and intelligent reﬂecting surface.

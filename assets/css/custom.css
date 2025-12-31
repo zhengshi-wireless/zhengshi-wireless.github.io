@@ -1,0 +1,43 @@
+/* --- Collapsible Visitor Map CSS --- */
+.map-container {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Hide the checkbox */
+.map-toggle-checkbox {
+  display: none;
+}
+
+/* Style the label to look like a button or link */
+.map-toggle-label {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 0.875rem; /* 14px */
+}
+
+.map-toggle-label:hover {
+  background-color: #e2e6ea;
+}
+
+/* The actual map content, hidden by default */
+.map-content {
+  display: none;
+  padding-top: 1rem;
+  /* New lines below to resize and center the map */
+  max-width: 300px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* When the checkbox is checked, show the map content */
+.map-toggle-checkbox:checked ~ .map-content {
+  display: block;
+}
+/* --- End of CSS --- */

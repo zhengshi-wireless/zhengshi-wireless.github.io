@@ -1,0 +1,53 @@
+primary_name: "Zheng Shi"
+secondary_name: ""
+navbar_name: "Zheng Shi"
+
+positions:
+- name: 
+- logo: /assets/images/badges/shanda.png
+  name: B.E., Shandong University (2025)
+
+email: "bsgbsg7@outlook.com"
+# cv_link: link-to-your-cv-file
+gscholar: -jyAWBcAAAAJ
+# github: bsgbsg7
+# twitter: your_twitter_id
+# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_prompt: >-
+#   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
+# linkedin: your-linked-in-id
+# orcid: 0000-0000-0000-0000
+
+short_bio: >-
+  I received my B.E. degree in communication engineering from Shandong University, Qindao, China, advised by <a href="https://yanniyang-polyu.github.io/index_english.html">Prof. Yanni Yang</a>.
+  Meanwhile, I was also a member of Innovation College. 
+  <br>
+  My current research interests include wireless sensing, mobile computing and intelligent reﬂecting surface.
+  <br><br>
+  <span style="color: red; font-weight: bold;">
+  I am currently seeking a PhD position in wireless sensing for Fall/Spring 2026. Please feel free to contact me if you are looking for a motivated student!
+  </span>
+portrait_url: /assets/images/photos/portrait.jpg
+portrait_caption: >-
+  Photo by bsgbsg7.
+
+education:
+- name: Shandong University
+  logo: /assets/images/badges/shanda.png
+  position: B.E. in Communication Engineering
+  date: Sep. 2021 - Jul. 2025
+
+# experience:
+# - name: Peking University
+#   logo: /assets/images/badges/PKU_red.png
+#   position: Research Intern
+#   date: Sep. 2019 - Jul. 2021
+
+
+awards:
+- name: First Prize of Undergraduate Intelligent Vehicle Competition National (1%) 
+  date: 2023
+- name: Third Prize of Shandong University Academic Award Scholarship
+  date: 2022
+- name: First Prize of Shandong University Academic Award Scholarship
+  date: 2021

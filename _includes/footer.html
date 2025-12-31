@@ -1,0 +1,30 @@
+<footer class="footer">
+    <div class="container">
+
+        <div class="row my-3">
+            <div class="col-6">
+                <div class="text-muted">
+                    <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="text-right text-muted">
+                    {{ site.data.display.footer_text }}
+                </div>
+            </div>
+        </div>
+
+        <hr> <div class="map-container">
+            <input type="checkbox" id="visitorMapToggle" class="map-toggle-checkbox">
+            
+            <label for="visitorMapToggle" class="map-toggle-label">
+                Visitor Map
+            </label>
+            
+            <div class="map-content">
+                <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=jmCv6ehyeHy7g1J0vvlsE0eY68TsF0YBusCOBLxaZTU&cl=ffffff&w=a"></script>
+            </div>
+        </div>
+
+    </div>
+</footer>

@@ -22,7 +22,7 @@ authors:
   - Pengfei Hu
   - Jiannong Cao
 links:
-  Paper: https://ieeexplore.ieee.org/document/11328885
+  # Paper: https://ieeexplore.ieee.org/document/11328885
   # Slides: /_sources/slides/rfnoid_infocom25_slides.pdf
   Demo: https://bsgbsg7.github.io/MetaRFence.github.io/
 ---

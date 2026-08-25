@@ -1,24 +1,10 @@
-<div id="url-debug-message" class="row mt-3 d-none">
-    <div class="col">
-        <div class="alert alert-warning my-0" role="alert">
-            <h5><i class="fas fa-exclamation-triangle"></i> Action required</h5>
-            <strong>Problem:</strong>
-            The current root path of this site is "<code class="root-path-text"></code>",
-            which does not match the <code>baseurl</code> ("<code>{{ site.baseurl }}</code>") configured in <code>_config.yml</code>.
-            <br>
-
-            <strong>Solution:</strong>
-            Please set the <code>baseurl</code> in <code>_config.yml</code> to "<code class="root-path-text"></code>".
-        </div>
-    </div>
-</div>
-
+<div id="url-debug-message" class="row mt-3 d-none"><div class="col"><div class="alert alert-warning my-0" role="alert">
+<h5><i class="fas fa-exclamation-triangle"></i> <span class="lang-en">Action required</span><span class="lang-zh">需要操作</span></h5>
+<div class="lang-en"><strong>Problem:</strong> The current root path of this site is "<code class="root-path-text"></code>", which does not match the <code>baseurl</code> ("<code>{{ site.baseurl }}</code>") configured in <code>_config.yml</code>.<br><strong>Solution:</strong> Please set the <code>baseurl</code> in <code>_config.yml</code> to "<code class="root-path-text"></code>".</div>
+<div class="lang-zh"><strong>问题：</strong>当前网站根路径为“<code class="root-path-text"></code>”，与 <code>_config.yml</code> 中配置的 <code>baseurl</code>（“<code>{{ site.baseurl }}</code>”）不一致。<br><strong>解决方法：</strong>请将 <code>_config.yml</code> 中的 <code>baseurl</code> 设置为“<code class="root-path-text"></code>”。</div>
+</div></div></div>
 <script>
-striped_pathname = location.pathname.replace(/\/+$/, "");
-if(striped_pathname != "{{ site.baseurl }}"){
-    document.getElementById("url-debug-message").classList.remove('d-none');
-}
-document.querySelectorAll(".root-path-text").forEach(function(element){
-    element.textContent = striped_pathname;
-});
+var striped_pathname = location.pathname.replace(/\/+$/, "");
+if (striped_pathname != "{{ site.baseurl }}") document.getElementById("url-debug-message").classList.remove("d-none");
+document.querySelectorAll(".root-path-text").forEach(function (element) { element.textContent = striped_pathname; });
 </script>

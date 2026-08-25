@@ -4,12 +4,12 @@
         <div class="row my-3">
             <div class="col-6">
                 <div class="text-muted">
-                    <i><span class="lang-en">Last updated: {{ "now" | date: "%b %Y" }}</span><span class="lang-zh">最后更新：{{ "now" | date: "%Y 年 %m 月" }}</span></i>
+                    <i><span class="lang-en">Last updated: {{ "now" | date: "%b %Y" }}</span><span class="lang-zh">鏈€鍚庢洿鏂帮細{{ "now" | date: "%Y 骞?%m 鏈? }}</span></i>
                 </div>
             </div>
             <div class="col-6">
                 <div class="text-right text-muted">
-                    {{ site.data.display.footer_text }}
+                    <span class="lang-en">{{ site.data.display.footer_text }}</span><span class="lang-zh">{{ site.data.display.footer_text_zh | default: site.data.display.footer_text }}</span>
                 </div>
             </div>
         </div>
@@ -18,7 +18,7 @@
             <input type="checkbox" id="visitorMapToggle" class="map-toggle-checkbox">
             
             <label for="visitorMapToggle" class="map-toggle-label">
-                <span class="lang-en">Visitor Map</span><span class="lang-zh">访客地图</span>
+                <span class="lang-en">Visitor Map</span><span class="lang-zh">璁垮鍦板浘</span>
             </label>
             
             <div class="map-content">

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 </head>
-<body class="bg-light language-en" {{ page.body_attr }}>
+<body class="bg-light language-en" data-page-title-en="{{ page.title | escape }} - {{ site.data.profile.navbar_name | escape }}" data-page-title-zh="{{ page.title_zh | default: page.title | escape }} - {{ site.data.profile_zh.navbar_name | default: site.data.profile.navbar_name | escape }}" {{ page.body_attr }}>
     {% include navbar.html %}
     <div class="container">
         {{content}}

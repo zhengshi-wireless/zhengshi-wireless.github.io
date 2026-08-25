@@ -1,0 +1,31 @@
+primary_name: "Zheng Shi"
+secondary_name: "史峥"
+navbar_name: "Zheng Shi"
+
+positions:
+- name: 佐治亚大学博士生
+
+short_bio: >-
+  我目前是佐治亚大学（University of Georgia）博士生，由 <a href="https://anplus.github.io/">Zhenlin An 博士</a> 和 <a href="https://esi.uga.edu/">Haijian Sun 博士</a> 联合指导。
+  <br>
+  此前，我于中国山东大学崇新学堂获得通信工程学士学位，由 <a href="https://yanniyang-polyu.github.io/index_english.html">Yanni Yang 教授</a> 指导。
+  <br>
+  我的研究兴趣包括无线感知、移动计算、无线通信、AI-native wireless 和神经收发机（neural transceiver）。
+  <br>
+
+education:
+- name: 佐治亚大学
+  position: 博士生
+  date: 2025 年至今
+- name: 山东大学
+  logo: /assets/images/badges/shanda.png
+  position: 通信工程学士
+  date: 2021 年 9 月 - 2025 年 7 月
+
+awards:
+- name: 全国大学生智能汽车竞赛一等奖（前 1%）
+  date: 2023
+- name: 山东大学学业奖学金三等奖
+  date: 2022
+- name: 山东大学学业奖学金一等奖
+  date: 2021

@@ -4,7 +4,7 @@
         <div class="row my-3">
             <div class="col-6">
                 <div class="text-muted">
-                    <i>Last updated: {{ "now" | date: "%b %Y" }}</i>
+                    <i><span class="lang-en">Last updated: {{ "now" | date: "%b %Y" }}</span><span class="lang-zh">最后更新：{{ "now" | date: "%Y 年 %m 月" }}</span></i>
                 </div>
             </div>
             <div class="col-6">
@@ -18,7 +18,7 @@
             <input type="checkbox" id="visitorMapToggle" class="map-toggle-checkbox">
             
             <label for="visitorMapToggle" class="map-toggle-label">
-                Visitor Map
+                <span class="lang-en">Visitor Map</span><span class="lang-zh">访客地图</span>
             </label>
             
             <div class="map-content">

@@ -24,7 +24,7 @@ num_selected: 10
 {% 
     include widgets/publication_card.html 
     publications=pubs limit=page.num_selected 
-    title='<i class="fas fa-star"></i> Selected Publications'
+    title='<i class="fas fa-star"></i> <span class="lang-en">Selected Publications</span><span class="lang-zh">精选论文</span>'
 %}
 {% endif %}
 
@@ -33,7 +33,7 @@ num_selected: 10
 {% 
     include widgets/project_card.html 
     projects=pubs limit=page.num_selected 
-    title='<i class="fas fa-star"></i> Selected Projects'
+    title='<i class="fas fa-star"></i> <span class="lang-en">Selected Projects</span><span class="lang-zh">精选项目</span>'
 %}
 {% endif %}
 
@@ -42,6 +42,6 @@ num_selected: 10
 {% 
     include widgets/project_card.html 
     projects=pubs limit=page.num_selected 
-    title='<i class="fas fa-star"></i> Selected Projects'
+    title='<i class="fas fa-star"></i> <span class="lang-en">Selected Projects</span><span class="lang-zh">精选项目</span>'
 %}
 {% endif %} -->

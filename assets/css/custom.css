@@ -1,3 +1,10 @@
+.lang-zh { display: none; }
+body.language-zh .lang-en { display: none !important; }
+body.language-zh .lang-zh { display: inline; }
+body.language-zh p.lang-zh, body.language-zh ul.lang-zh { display: block; }
+.language-toggle-item { display: flex; align-items: center; }
+.language-toggle { margin-left: .4rem; border: 1px solid #adb5bd; color: #495057; background: #fff; border-radius: 1rem; padding: .15rem .65rem; }
+.language-toggle:hover { background: #e9ecef; }
 /* --- Collapsible Visitor Map CSS --- */
 .map-container {
   text-align: center;
